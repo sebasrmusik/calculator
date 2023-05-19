@@ -1,0 +1,44 @@
+* {
+    font-family: Roboto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calc-container {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    flex: 0 1 500px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.row {
+    display: flex;
+}
+
+button {
+    min-width: 0;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.row, .num0, .clear, .small-buttons, .big-button, button, #number{
+    flex: 1 1 0px;
+}
+
+.small-buttons, .big-button {
+    display: flex;
+}
+#number {
+    text-align: end;
+    font-size: 40px;
+}
